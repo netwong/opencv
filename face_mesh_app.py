@@ -7,3 +7,15 @@ import time
 from PIL import Image
 
 st.title('Face Mesh App using MediaPipe')
+st.markdown(
+  """ 
+  <style>
+  [data-testid="stSidebar"][aria-expanded="true"] > div:first-child{
+    width: 350px
+  }
+  [data-testid="stSidebar"][aria-expanded="false"] > div:first-child{
+    width: 350px
+    margin-left: -350px
+  }
+  """
+(
