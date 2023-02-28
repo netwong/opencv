@@ -18,4 +18,4 @@ st.markdown(
     margin-left: -350px
   }
   """
-(
+)
